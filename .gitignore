@@ -1,0 +1,16 @@
+/node_modules
+/dist
+.env
+package-lock.json
+.DS_Store
+package.json
+.vscode
+.idea
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+*.rej
