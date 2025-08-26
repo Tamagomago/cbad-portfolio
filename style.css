@@ -27,7 +27,7 @@
 .sidebar-items:hover,
 .selected {
   color: var(--foreground) !important;
-  scale: 2.3;
+  scale: 2;
 }
 
 .header-text {
@@ -240,6 +240,11 @@ body {
   .sidebar {
     height: auto;
     min-height: auto;
+  }
+
+  .selected {
+    color: var(--foreground) !important;
+    scale: none;
   }
 
   nav {
