@@ -1,9 +1,9 @@
 <?php
-  include __DIR__ . '/includes/titles.php';
-  $Page = 'projects';
-  $PageTitle = $PageTitles[$Page];
-  include __DIR__ . '/includes/header.php';
- ?>
+include __DIR__ . '/includes/titles.php';
+$Page = 'projects';
+$PageTitle = $PageTitles[$Page];
+include __DIR__ . '/includes/header.php';
+?>
 <div class="container-fluid g-0 p-0 h-100 d-flex align-items-center justify-content-center">
   <!-- sidebar (3 cols), main content (9 cols) -->
   <div class="row g-0 w-100">
@@ -113,10 +113,34 @@
               </div>
             </article>
           </div>
+          
+          <!-- Matrix Lab -->
+          <div class="col">
+            <article class="d-flex flex-column position-relative h-100 p-3 card card-border rounded-3">
+              <div class="rounded-2 overflow-hidden mb-3">
+                <img src="assets/images/matrix-lab.png" alt="Matrix Lab preview"
+                     class="w-100 h-100 object-fit-cover">
+              </div>
+              <h3 class="fs-4 mb-3">Matrix Lab</h3>
+              <div class="d-flex flex-wrap gap-2">
+                <span class="btn btn-outline-muted btn-sm">HTML</span>
+                <span class="btn btn-outline-muted btn-sm">CSS</span>
+                <span class="btn btn-outline-muted btn-sm">JavaScript</span>
+              </div>
+              <div class="mt-auto d-flex justify-content-end pt-3">
+                <a href="https://matrix-lab-sigma.vercel.app/" target="_blank" rel="noopener"
+                   class="btn btn-outline-light d-inline-flex align-items-center gap-2">
+                  <span>Open</span>
+                  <img src="assets/icons/arrow-top-right.svg" alt="" class="btn-icon flex-shrink-0" width="20"
+                       height="20">
+                </a>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </main>
   </div>
 </div>
 
-<?php include __DIR__ . '/includes/footer.php'?>
+<?php include __DIR__ . '/includes/footer.php' ?>
