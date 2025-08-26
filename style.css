@@ -24,8 +24,9 @@
   background-color: var(--foreground);
 }
 
-.sidebar-items:hover {
-  color: var(--foreground);
+.sidebar-items:hover,
+.selected {
+  color: var(--foreground) !important;
   scale: 2.3;
 }
 
