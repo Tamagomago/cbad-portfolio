@@ -14,6 +14,37 @@
   /*outline: 1px solid red !important;*/
 }
 
+#date {
+  font-size: clamp(1rem, 2vw, 5rem);
+  font-weight: 300;
+  cursor: default;
+  transition:
+    color 0.2s ease-in-out,
+    background 0.2s ease-in-out,
+    -webkit-background-clip 0.2s ease-in-out,
+    background-clip 0.2s ease-in-out,
+    -webkit-text-fill-color 0.2s ease-in-out,
+    scale 0.2s ease-in-out;
+  color: transparent;
+  background: linear-gradient(
+    to bottom,
+    var(--muted) 0%,
+    var(--background) 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#date:hover {
+  color: var(--foreground);
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  -webkit-text-fill-color: white;
+  scale: 2;
+}
+
 #projects-btn {
   font-size: clamp(1rem, 1.1vw, 1.75rem);
   font-weight: 300;
@@ -86,7 +117,7 @@ body {
   background-image:
     linear-gradient(0deg, var(--glow-color) 3px, transparent 3px),
     linear-gradient(90deg, var(--glow-color) 3px, transparent 3px);
-  background-size: 100px 100px;
+  background-size: 50px 50px;
   filter: drop-shadow(0 0 4px var(--glow-color))
     drop-shadow(0 0 10px var(--glow-color))
     drop-shadow(0 0 20px var(--glow-color));
@@ -248,9 +279,6 @@ body {
   }
 
   nav {
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
     width: 100%;
     background-color: var(--background);
     gap: 0.75rem;

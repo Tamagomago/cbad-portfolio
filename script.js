@@ -3,6 +3,13 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentPath = window.location.pathname.split("/").pop();
   if (!currentPath) currentPath = "index.php";
 
+  const date = new Date();
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+
+  document.getElementById("date").textContent = `${year}/${month}/${day}`;
+
   // Find the current menu link
   let currentLink = null;
   menuLinks.forEach((link) => {
