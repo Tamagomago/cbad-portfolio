@@ -144,6 +144,17 @@
               </div>
             </div>
           </li>
+          <li class="col">
+            <div class="btn btn-outline-light w-100 h-100 text-start py-3 px-3">
+              <div class="d-flex align-items-center gap-3">
+                <img class="tool-icon" src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg" alt="Postman">
+                <div>
+                  <span class="d-block fw-semibold">Postman</span>
+                  <small class="d-block txt-muted">API testing</small>
+                </div>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
     </main>

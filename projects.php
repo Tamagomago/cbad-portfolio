@@ -41,7 +41,7 @@ include __DIR__ . '/includes/header.php';
           <!-- Weather App -->
           <div class="col">
             <article class="d-flex flex-column position-relative h-100 p-3 card card-border rounded-3">
-              <div class="rounded-2 overflow-hidden mb-3">
+              <div class="rounded-2 overflow-hidden mb-3 project-img-wrapper">
                 <img src="assets/images/weather-app.png" alt="Weather App preview"
                      class="w-100 h-100 object-fit-cover">
               </div>
@@ -65,7 +65,7 @@ include __DIR__ . '/includes/header.php';
           <!-- Newton Library -->
           <div class="col">
             <article class="d-flex flex-column position-relative h-100 p-3 card card-border rounded-3">
-              <div class="rounded-2 overflow-hidden mb-3">
+              <div class="rounded-2 overflow-hidden mb-3 project-img-wrapper">
                 <img src="assets/images/newton-library.png" alt="Newton Library preview"
                      class="w-100 h-100 object-fit-cover">
               </div>
@@ -92,7 +92,7 @@ include __DIR__ . '/includes/header.php';
           <!-- Motoki Pomodoro -->
           <div class="col">
             <article class="d-flex flex-column position-relative h-100 p-3 card card-border rounded-3">
-              <div class="rounded-2 overflow-hidden mb-3">
+              <div class="rounded-2 overflow-hidden mb-3 project-img-wrapper">
                 <img src="assets/images/motoki.png" alt="Motoki Pomodoro preview"
                      class="w-100 h-100 object-fit-cover">
               </div>
@@ -117,7 +117,7 @@ include __DIR__ . '/includes/header.php';
           <!-- Matrix Lab -->
           <div class="col">
             <article class="d-flex flex-column position-relative h-100 p-3 card card-border rounded-3">
-              <div class="rounded-2 overflow-hidden mb-3">
+              <div class="rounded-2 overflow-hidden mb-3 project-img-wrapper">
                 <img src="assets/images/matrix-lab.png" alt="Matrix Lab preview"
                      class="w-100 h-100 object-fit-cover">
               </div>
